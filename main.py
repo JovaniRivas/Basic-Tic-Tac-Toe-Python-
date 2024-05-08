@@ -141,7 +141,7 @@ def tic_tac_toe_game(player1, player2, initial_board):
         if (check_for_win(player1, initial_board)):
             print("PLAYER 1 HAS WON")
             main()
-'''
+
         print(f"Player two ({player2}) turn. ")
         while True:
             print("Column Number")
@@ -157,7 +157,7 @@ def tic_tac_toe_game(player1, player2, initial_board):
         print("Check to see if player 2 has won")
         if (check_for_win(player2, initial_board)):
             print("PLAYER 2 HAS WON")
-            main()'''
+            main()
 
 def check_for_win(player, current_board):
     row = len(current_board)
